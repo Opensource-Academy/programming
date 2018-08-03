@@ -1,4 +1,3 @@
-[![Built with Spacemacs](https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg)](http://spacemacs.org)
 # Programming 101 - Basic programming introduction with Python
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
@@ -766,7 +765,7 @@ If you want practical use cases for your new knowledge and or want to learn more
 
 
 ```
-   Copyright 2018 Open Source Academy
+   Copyright 2018 Opensource Academy
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
