@@ -762,7 +762,7 @@ If you want practical use cases for your new knowledge and or want to learn more
 | ---                  | ---  | ---                                          |
 | ATBS - ATBS Intro    |      | https://automatetheboringstuff.com/chapter0/ |
 | ATBS - Python Basics |      | https://automatetheboringstuff.com/chapter1/ |
-
+| Kaggle - Python class|      | https://www.kaggle.com/learn/python          |
 
 ```
    Copyright 2018 Opensource Academy
