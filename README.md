@@ -1,6 +1,18 @@
 # programming
-General programming related information
+General programming related information. Learn about the general basics of programming using the programming language Python.
 
+## Prerequisites
+
+This guide assumes that you can work with in a [CLI based environment](https://github.com/Opensource-Academy/cli).
+
+## Course overview
+
+|    # | Module                                                                                                                                      |
+| :--- | :---                                                                                                                                        |
+|  101 | [Introduction to programming](https://github.com/Opensource-Academy/programming/blob/master/101_introduction_to_programming_with_python.md) |
+|  102 | [Intermediate concepts](https://github.com/Opensource-Academy/programming/blob/master/102_intermediate_programming_concepts_with_python.md) |
+
+## License
 ```
    Copyright 2018 Opensource Academy
 

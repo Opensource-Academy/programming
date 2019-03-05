@@ -1,5 +1,8 @@
 # Programming 102 - Intermediate programming concepts with Python
-[< Previous course module](https://github.com/Opensource-Academy/programming/blob/master/101_introduction_to_programming_with_python.md)
+
+[< Course overview](https://github.com/Opensource-Academy/programming)  
+[< Previous course module](https://github.com/Opensource-Academy/programming/blob/master/101_introduction_to_programming_with_python.md)  
+
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
