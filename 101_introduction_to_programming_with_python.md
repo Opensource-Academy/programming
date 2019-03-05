@@ -65,12 +65,12 @@
     - [Test yourself](#test-yourself)
         - [Exercise 0: Define a variable](#exercise-0-define-a-variable)
         - [Exercise 1: Print it](#exercise-1-print-it)
-        - [Exercise 2: Greetings!](#exercise-2-greetings)
+        - [Exercise 2: Greetings](#exercise-2-greetings)
         - [Exercise 3: The age old question](#exercise-3-the-age-old-question)
         - [Exercise 4: Combo](#exercise-4-combo)
-        - [Exercise 5: Which one?](#exercise-5-which-one)
-        - [Exercise 6: Other!](#exercise-6-other)
-        - [Exercise 7: Wrong!](#exercise-7-wrong)
+        - [Exercise 5: Which one](#exercise-5-which-one)
+        - [Exercise 6: Other](#exercise-6-other)
+        - [Exercise 7: Wrong](#exercise-7-wrong)
         - [Exercise 8: Reading is important](#exercise-8-reading-is-important)
         - [Exercise 9: A simple calculator](#exercise-9-a-simple-calculator)
         - [Exercise 10: Almost a full calculator](#exercise-10-almost-a-full-calculator)
@@ -177,7 +177,7 @@ This guide is based on Python 3.6, the latest version of Python at the time of w
 
 ### Running Python
 > **Warning:** If you already had Python 2 on your machine and have now installed Python 3 alongside Python 2 *or* your machine came with both Python 2 and Python 3, make sure to use the right Python command; typing `python` into your terminal will open the interactive python shell running python 2, since you want to run Python 3 you should use the following command to start it:
-```
+```bash
 python3
 ```
 >*Note:* If you see code examples in this course that require you to run `python` in your terminal and your `python` command starts python 2, make sure to run `python3` instead of just `python`!
@@ -244,7 +244,7 @@ Strings is how you store text in Python. You can make a *string* by adding quota
 > *Note:* Strings are of the type *string*.
 
 The most basic example of a string:
-```
+```python3
 "Hello World"
 ```
 | data          | type   | value         |
@@ -258,12 +258,12 @@ For numbers, there is more than one data type.
 #### Integers (int)
 The *integer* type, which simply means round numbers (a 'whole' number).
 Example:
-```
+```python3
 5
 ```
 #### Floating Point (float)
 The *floating point* type, which is for numbers with a full stop (`.`).
-```
+```python3
 1.23
 ```
 | data          | type   | value         |
@@ -285,7 +285,7 @@ Where strings, ints and floats can have any possible value (fitting the datatype
 Now that you have data, you want to do something with or to it. Let's start with a simple *operation*; some very basic maths.  
 
 Example:
-```
+```python3
 4 + 5
 ```
 In this example there are 2 *values*, `4` and `5`. You already know that these values are of the *type* integer.  
@@ -334,7 +334,7 @@ Now that you have operators and values you can combine these two to form **expre
 The most basic form of an expression is:
 **Operand - operator - operand**  
 Example:
-```
+```python3
 3  +  4
 ```
 ### Basic examples:
@@ -351,7 +351,7 @@ These will work, so called **valid** expressions:
 
 #### Invalid expressions
 This one won't work, a so called **invalid** expression:
-```
+```python3
 3+"ab"
 ```
 > *Try it:* See what happens if you run these in your Python shell!
@@ -380,15 +380,15 @@ Statements are basically expressions chained together to do *something*.
 
 So let's recap:
 
-```
+```python3
 8
 ```
 This is an *int*. It has the *value* 8.
-```
+```python3
 3*5
 ```
 This is an *expression*. It consists of the `\*` `operator` which does something to it's `operands`: `3` and `5`.
-```python
+```python3
 print(3*5)
 ```
 This is a very simple statement, it makes use of the print() function (more on that in a short bit) and you should be able to point out the *expression* `3*5`.
@@ -402,17 +402,17 @@ However, a better way to look at it, is this: variables are like an address on a
 *Assign* data to a variable with `=`
 
 So in it's most simple form use:
-```
+```python3
 x = 8
 ```
 `x`  now holds the *value* `8`.
 
 Variables can have any name you want:
-```
+```python3
 some_variable = 8001
 ```
-Once the above code has run, you can quickly get out the data (9001) by referring to 'some\_variable' like in the following example:
-```
+Once the above code has run, you can quickly get out the data (8001) by referring to 'some\_variable' like in the following example:
+```python3
 print(x)
 print(some_variable)
 ```
@@ -432,7 +432,7 @@ x = 3
 Will turn the *variable* `x` into an *int* (because `3` is an *int*)
 
 You should keep in mind that, in Python, it's very easy to change the datatype of a variable:
-```
+```python3
 x = "banana"
 ```
 The same x that was an int before is now a string; operators that expect only ints will complain about this.
@@ -442,10 +442,10 @@ The same x that was an int before is now a string; operators that expect only in
 Wherever a value is used, a variable could take it's place. You will of course have to assign something to the variable somewhere, somehow.
 
 For example, have a look at the following 2 examples. Notice the difference.
-```
+```python3
 8 + 8
 ```
-```
+```python3
 x = 8
 x + x
 ```
@@ -455,12 +455,12 @@ x + x
 ### Variable names
 #### Readability
 Comments are one way to make code readable, another good tool is good variable names, lets say you are working with data that consists of just first and last names. You could do this:
-```
+```python3
 x = Bob
 y = Ross
 ```
 Simply going with something such as in the following example will make working on and reading this code much easier.
-```
+```python3
 first = Bob
 last = Ross
 ```
@@ -470,7 +470,7 @@ Some words in Python are so called keywords, this means that you cannot use them
 Your code editor or IDE will probably tell you that you are using a keyword by giving it a special color or showing some other form of warning.
 
 ## Data conversion
-```
+```python3
 3+"ab"
 ```
 The above expression won't work because the `+` operator cannot work with two different data types at the same time. The `3` is an int, `"ab"` is a string.
@@ -483,7 +483,7 @@ The str() function lets us change the int 3 to a string "3"
 
 The following code will work in Python:
 
-```
+```python3
 str(3)+"ab"
 ```
 
@@ -497,13 +497,13 @@ Be cautious when changing data types; changing data types somewhere in a large p
 Comments are lines (or blocks) of human readable text (so not code) that help you, or maybe others, to understand your code. 
 
 Single line comments are defined with #, like this:
-```
+```python3
 x = 1 #This is a comment
 ```
 
 ### Easy comment blocks
 Multiline comments, or blocks are made by using:
-```
+```python3
 '''
 This is a multi line
 comment
@@ -512,14 +512,14 @@ comment
 
 ### Where to comment
 Since Python is meant to be an easy to read language and it is considered best practise to write understandable scripts, you will not have to put a comment on every little piece of code you write. Suppose you where to write this code:
-```
+```python3
 my_answer = 3 + 3
 ```
 
 This will set the variable my_answer to the value 6 (because 3+3 equals 6); you probably did not need this explanation to understand this line of code; so it would be futile to add a comment here.
 
 The example below is a more complex example, note how it contains a comment that explains what this line of code does: 
-```
+```python3
 line = re.sub(r"^\(|\)$|'|\s","",line) #remove all ( ) ' and whitespace from the string in the variable "line" using regular expressions.
 ```
 
@@ -550,7 +550,7 @@ Indentation is extremely important in Python, it's how Python knows what blocks 
 Let's say you want to find out if the variable n is an even number.
 
 First you want to assign a value to n.
-```
+```python3
 n = 5
 ```
 
@@ -558,7 +558,7 @@ Now, if you want to find out if n is an even number or not, you can use if to do
 
 In code this would look like this:
 
-```
+```python3
 n = 5
 if n%2 == 0:
     print("even")
@@ -573,7 +573,7 @@ You can use if inside of a block of code that contain more ifs, this allows you 
 ### Comparing
 
 Notice the == between n%2 and 0 in the code above. Remember how = is used to assign values to variables. This means that you need another way to tell the computer that you want to compare something. To tell the computer that you want to compare x to y you can use ==, like this:
-```
+```python3
 if x == y:
     print("x is y!")
 ```
@@ -584,7 +584,7 @@ Elif stands for else-if, Elif allows you to build much more complex expressions 
 
 The following example should easily explain how this works:
 
-```
+```python3
 print("Guess the number! It's somewhere between 1 and 5! (Enter 1, 2, 3, 4 or 5 and press return!)")
 n = input()
 if n == 1:
@@ -612,7 +612,7 @@ While you are at work:
     wear pants
 ```
 In programming you often want to have the machine do exactly this, let's look at a simple example in Python code:
-```
+```python3
 name = ''
 while name != 'your name':
     print('Please type your name.')
@@ -637,7 +637,7 @@ print('Thank you!')
 The previous chapter's final example had you enter some text into the terminal. Python then stored the input in a variable.
 
 Handeling input with the input function in Python is super simple.
-```
+```python3
 x = input()
 ```
 When this code runs, you can enter text into the terminal, whatever you type into the terminal (press enter when you are done), will be stored in the variable x.
@@ -658,7 +658,7 @@ and NOT:
 Importing modules is an important part of Python. Imports enable you to easily add extra functions to your script. A pretty obvious example is the 'os' module.
 
 You can add the import module by adding the following to the top of your script:
-```
+```python3
 import os
 ```
 
@@ -669,11 +669,11 @@ os
 followed by a dot ('.') and the name of the function you want to use.
 
 Let's say that you want to use the 'system' function from the os module. With 'system' you can send a bash command to the terminal. So for example, you could use:
-```
+```python3
 os.system('ls')
 ```
 This is effectively the same as typing
-```
+```bash
 ls
 ```
 into a terminal.
@@ -696,13 +696,13 @@ programming_intro_ex_1.py
 1. Use your variable 'x' from the previous exercise.
 2. Use Python's print function to print your variable's contents.
 
-### Exercise 2: Greetings!
+### Exercise 2: Greetings
 1. Print 'Hello, what is your name?'
 2. Let the user enter their name.
 3. Print 'Your name is *NAME*', where *NAME* should be the input entered in step 2.
 
 ### Exercise 3: The age old question
-1. Print 'What is your age?'
+1. Print "What's is your age?"
 2. Let the user enter a number (their age)
 3. Print 'Your age is *AGE* where *AGE* should be the input from step 2.
 
@@ -712,17 +712,17 @@ programming_intro_ex_1.py
 3. Let the user enter their age
 4. Print 'Your name is *NAME*, and you are *AGE* years old!'. Where *NAME* is the name from step 2 and *AGE* is the age from step 3.
 
-### Exercise 5: Which one?
+### Exercise 5: Which one
 1. Print 'Do you prefer apples or bananas?'
 2. Let the user enter an answer.
 3. If the answer is 'apples, print 'you love apples!' otherwise, print 'you love bananas!'
 
-### Exercise 6: Other!
+### Exercise 6: Other
 1. Reuse the script from the previous exercise.
 2. Change the first print to: 'Do you prefer apples, bananas or other?'
 3. If the answer is 'apples, print 'you prefer apples!', if the answer is 'bananas, print 'you prefer bananas', otherwise print: 'you prefer something else!'
 
-### Exercise 7: Wrong!
+### Exercise 7: Wrong
 1. Reuse the script from the previous exercise.
 2. Whenever the user enters an answer, test if the answer is either 'apples', 'bananas' or 'other'. If the answer is not one of those three, print 'That is not a valid answer! Answer again!' and let the user enter an answer again.
 3. Keep asking until the user enters either 'apples', 'bananas' or 'other'.
@@ -763,6 +763,8 @@ If you want practical use cases for your new knowledge and or want to learn more
 | ATBS - ATBS Intro    |      | https://automatetheboringstuff.com/chapter0/ |
 | ATBS - Python Basics |      | https://automatetheboringstuff.com/chapter1/ |
 | Kaggle - Python class|      | https://www.kaggle.com/learn/python          |
+
+[Next course module >](https://github.com/Opensource-Academy/programming/blob/master/102_intermediate_programming_concepts_with_python.md)
 
 ```
    Copyright 2018 Opensource Academy
