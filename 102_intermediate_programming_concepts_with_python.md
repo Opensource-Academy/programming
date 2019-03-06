@@ -297,7 +297,7 @@ def my_formula(number_1, number_2):
 
 ## Test yourself
 
-### Exercise 0:
+### Exercise 0: Make a list
 Make a list out of the following strings:
 ```
 bash
@@ -306,7 +306,7 @@ go
 ```
 Print your list.
 
-### Exercise 1: Make a list
+### Exercise 1: Print a list
 Use this list: `the_list = ['Jim', 'Jon', 'Sean']`. Write a script that uses the list and then prints `Sean`.
 
 ### Exercise 2: Combine a list
@@ -332,7 +332,7 @@ Write a function called `hello`. Your function should take the argument `name`. 
 ### Exercise 8: Function fixing
 Look at this function:
 
-```
+```python3
 def formula(x,y):
     '''Prints the result of (x+y)*500* '''
     result = (x+y)*500
@@ -346,6 +346,8 @@ Write a function that does the same thing you did in the previous exercise. Your
 
 ### Exercise 10: Fix 'er up!
 Remember the [calculator from the previous module](https://github.com/Opensource-Academy/programming/blob/master/101_introduction_to_programming_with_python.md#exercise-11-finish-it)? Make your calculator better by writing functions for it's basic operations (`+`, `-`, `/` and `*`).
+
+[Next course module >](https://github.com/Opensource-Academy/programming/blob/master/103_advanced_programming_concepts_with_python.md)
 
 ```
    Copyright 2018 Opensource Academy
