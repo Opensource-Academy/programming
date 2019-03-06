@@ -189,7 +189,7 @@ Methods are called by using the `.` (dot) and then the method name. Much like wi
 
 Let's look at some *methods* that can be found on all Python strings.
 
-```
+```python3
 # Our base string, stored in the variable "string"
 string = 'Hello World'
 
@@ -332,7 +332,7 @@ Cliff:Burton:1962:1986:Bass
 ```
 ### Exercise 8: Discriminate
 Have a look at this list of words:
-```
+```python3
 word_list = [
     'MASTER',
     'Justice,
@@ -348,7 +348,7 @@ Use string methods to only print words that are printed in CAPITALS **only** or 
 
 ### Exercise 9: The rest isn't that important
 Have a look at this list of words:
-```
+```python3
 word_list = [
     'MASTER',
     'Justice,
