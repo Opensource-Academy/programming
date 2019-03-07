@@ -12,6 +12,7 @@ This guide assumes that you can work with/in a [CLI based environment](https://g
 |  101 | [Introduction to programming](https://github.com/Opensource-Academy/programming/blob/master/101_introduction_to_programming_with_python.md) |
 |  102 | [Intermediate concepts](https://github.com/Opensource-Academy/programming/blob/master/102_intermediate_programming_concepts_with_python.md) |
 |  103 | [Advanced concepts](https://github.com/Opensource-Academy/programming/blob/master/103_advanced_programming_concepts_with_python.md)         |
+|  104 | [Expert concepts](https://github.com/Opensource-Academy/programming/blob/master/104_expert_programming_concepts_with_python.md)             |
 
 ## License
 ```

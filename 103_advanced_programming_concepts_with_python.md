@@ -451,3 +451,5 @@ Using dicts and lists is fun. But doing the same thing with classes is much more
 Start off by finding out how to write your own classes.
 
 Turn the phonebook functions into methods.
+
+[Next course module >](https://github.com/Opensource-Academy/programming/blob/master/104_expert_programming_concepts_with_python.md)
