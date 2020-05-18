@@ -360,13 +360,13 @@ word_list = [
 
 Use the list as provided above (you can copy paste it).
 Use a `for` loop to loop over the list.
-Store all entries that use mixed casing (both upper and lower) in a list. Store the list in the variable `else`.
-Store all entries that use UPPER casing in a list. Store the list in the variable `matters`.
-Store all entries that use lower casing in a list. Store the list in the variable `nothing`.
+Store all entries that use mixed casing (both upper and lower) in a list. Store the list in the variable `ELSE`.
+Store all entries that use UPPER casing in a list. Store the list in the variable `MATTERS`.
+Store all entries that use lower casing in a list. Store the list in the variable `NOTHING`.
 
-Print 'Nothing:', loop over the list in `nothing` and print every result to a new line.
-Print 'Else:', loop over the list in `else` and print every result to a new line.
-Print 'Matters:', loop over the list in `matters` and print every result to a new line.
+Print 'Nothing:', loop over the list in `NOTHING` and print every result to a new line.
+Print 'Else:', loop over the list in `ELSE` and print every result to a new line.
+Print 'Matters:', loop over the list in `MATTERS` and print every result to a new line.
 
 ### Exercise 10: Let's write a phonebook
 Calculators are fun, but this time, we'll write something else. A phonebook (if you don't know what a phonebook is, a phonebook is very much like the contacts app on your phone, but in print, so it updates slowly).
