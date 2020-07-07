@@ -623,7 +623,7 @@ while name != 'your name':
 print('Thank you!')
 
 ```
-The above program checks the user input and unless the input is equal to "your name", the script will begin from the start. If the check turns out to be true, the program will print a thank you and finally end. Be careful when writing loops; make sure there is a way to escape them, otherwise you will end up with an endless loop.
+The above program checks the user input and unless the input is equal to (note the `!=` for *not* equal to) "your name", the script will begin from the start. If the check turns out to be true, the program will print a thank you and finally end. Be careful when writing loops; make sure there is a way to escape them, otherwise you will end up with an endless loop.
 
 Example of an endless loop:
 
