@@ -28,9 +28,9 @@
         - [Exercise 3: Update the band](#exercise-3-update-the-band)
         - [Exercise 4: Split 'em up](#exercise-4-split-em-up)
         - [Exercise 5: Split them some more](#exercise-5-split-them-some-more)
-        - [Exercise 5: Show 'em all](#exercise-5-show-em-all)
+        - [Exercise 5.1: Show 'em all](#exercise-5.1-show-em-all)
         - [Exercise 6: Master of methods](#exercise-6-master-of-methods)
-        - [Exercise 6: Methods for all](#exercise-6-methods-for-all)
+        - [Exercise 6.1: Methods for all](#exercise-6.1-methods-for-all)
         - [Exercise 7: Join in](#exercise-7-join-in)
         - [Exercise 8: Discriminate](#exercise-8-discriminate)
         - [Exercise 9: The rest isn't that important](#exercise-9-the-rest-isnt-that-important)
@@ -276,7 +276,7 @@ Into this list:
 ```
 Print your list.
 
-### Exercise 5: Show 'em all
+### Exercise 5.1: Show 'em all
 Use the string method `.split()` to turn this string:
 ```python3
 my_band = 'Lars:James:Kirk:Cliff'
@@ -296,7 +296,7 @@ unsorted_years = [2003, 1986, 2008, 1983, 1997, 1996, 1988, 1991, 2016, 1984]
 ```
 Using a list method, use a single line of code to sort this list of years.
 
-### Exercise 6: Methods for all
+### Exercise 6.1: Methods for all
 Use this list of ints:
 ```python3
 unsorted_years = [2003, 1986, 2008, 1983, 1997, 1996, 1988, 1991, 2016, 1984]
