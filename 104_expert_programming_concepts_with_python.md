@@ -294,4 +294,6 @@ You are **not** allowed to use `else`!
 Grab that calculator from the previous exercises. Finish it (or possible rebuild it!) by using functions that make use of `return` (where needed).
 
 ### Exercise 4: Phoning it in
-Very much like with the previous exercise, use the phonebook from the last module and make it awesome by using returns.
+Very much like with the previous exercise, use the phonebook from the last module and make it awesome by:
+- using smart returns wherever possible
+- fixing the remove function: remove deletes entries based on first names, make sure that the function prompts for a last name on duplicate first names
