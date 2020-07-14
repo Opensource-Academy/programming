@@ -335,9 +335,9 @@ Have a look at this list of words:
 ```python3
 word_list = [
     'MASTER',
-    'Justice,
-    'RIDE,
-    'load,
+    'Justice',
+    'RIDE',
+    'load',
     'Garage',
 ]
 ```
@@ -351,9 +351,9 @@ Have a look at this list of words:
 ```python3
 word_list = [
     'MASTER',
-    'Justice,
-    'RIDE,
-    'load,
+    'Justice',
+    'RIDE',
+    'load',
     'Garage',
 ]
 ```
