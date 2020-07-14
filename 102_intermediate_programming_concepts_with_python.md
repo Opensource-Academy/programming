@@ -28,6 +28,7 @@
         - [What is a function?](#what-is-a-function)
         - [Defining a functions](#defining-a-functions)
         - [Function arguments](#function-arguments)
+        - [Basic return](#basic-return)
         - [Function docstrings](#function-docstrings)
         - [Where are functions used?](#where-are-functions-used)
             - [Writing the same code over and over again is a waste of time](#writing-the-same-code-over-and-over-again-is-a-waste-of-time)
@@ -248,6 +249,25 @@ When the funtion is used:
 hello_you('Sarah')
 Hello Sarah
 ```
+
+### Basic return
+Much like we can send data to a function with arguments, functions can also *return* data.
+
+A very simple example of a return would be:
+```python3
+def first_letter(word):
+    '''returns the first letter of word'''
+    first = word[0]
+    return first
+```
+
+Returned data can be used like any other data. For example, assigning to a variable or printing:
+```python3
+first = first_letter('Sarah')
+print(first_letter('Sarah')
+```
+
+Returns are covered more thouroughly in part 4 of this course.
 
 ### Function docstrings
 Remember the previous module's entry on [comments](https://github.com/Opensource-Academy/programming/blob/master/101_introduction_to_programming_with_python.md#comments)? Function's have their own special place for comments. This so called 'doc string' consists of usefull information about the function.
