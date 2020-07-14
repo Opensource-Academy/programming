@@ -297,3 +297,4 @@ Grab that calculator from the previous exercises. Finish it (or possible rebuild
 Very much like with the previous exercise, use the phonebook from the last module and make it awesome by:
 - using smart returns wherever possible
 - fixing the remove function: remove deletes entries based on first names, make sure that the function prompts for a last name on duplicate first names
+- fixing the remove function even more by asking for an email adress for entries that share first and last names
